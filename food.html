@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Food Selection</title>
+    <link rel="stylesheet" href="css/food.css" />
+  </head>
+  <body>
+    <div id="foodquestion">
+      <b>What food would you like to eat?</b>
+    </div>
+
+    <div class="food-selection">
+      <div class="food-item">
+        <img src="food/mcdo.jfif" alt="Mcdo" />
+        <label
+          ><input
+            type="checkbox"
+            name="food"
+            value="Mcdo"
+          />
+          Mcdo</label
+        >
+      </div>
+      <div class="food-item">
+        <img src="food/jabee.jfif" alt="jabee" />
+        <label
+          ><input type="checkbox" name="food" value="jabee" /> Jollibee</label>
+      </div>
+      <div class="food-item">
+        <img src="food/snr.jpg" alt="snr" />
+        <label
+          ><input type="checkbox" name="food" value="snr" /> S&R (w/ Caesar Salad)</label>
+      </div>
+    </div>
+    <button class="button" onclick="location.href='dessert.html'">
+      Continue
+    </button>
+  </body>
+</html>
